@@ -54,12 +54,18 @@ Create a new Solidity file and paste the smart contract code
 Compile the contract
 Deploy using the Remix environment (JavaScript VM / local blockchain)
 Interact with the contract functions to simulate record storage and access
-📈 Future Improvements
+
+
+📈 Future Improvements:-
+
 Integration with hospital management systems
 Off-chain storage using IPFS for large medical data
 Enhanced encryption for sensitive information
 Web-based interface for better usability
-⭐ Key Learnings
+
+
+⭐ Key Learnings:-
+
 Understanding of blockchain fundamentals and smart contracts
 Implementation of access control in decentralized systems
 Concepts of data security and immutability
