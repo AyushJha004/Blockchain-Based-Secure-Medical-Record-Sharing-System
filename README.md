@@ -15,12 +15,14 @@ Traditional healthcare systems often face issues like data tampering, lack of se
 🔑 Patient-controlled data sharing permissions
 📁 Immutable and tamper-proof data storage
 🌐 Decentralized architecture for enhanced security
+
+
 🛠️ Tech Stack
 Blockchain: Ethereum
 Smart Contracts: Solidity
 Development Tool: Remix IDE
-👨‍💻 Contribution
 
+👨‍💻 Contribution:-
 This was a group project developed collaboratively.
 
 My Contributions:
@@ -28,6 +30,7 @@ Implemented smart contract logic using Remix IDE
 Developed core functionality for secure medical record handling
 Designed access control mechanisms for controlled data sharing
 Tested and deployed smart contracts on a local blockchain
+
 Team Contributions:
 Assisted in system design and workflow planning
 Collaborated on testing and debugging of smart contracts
