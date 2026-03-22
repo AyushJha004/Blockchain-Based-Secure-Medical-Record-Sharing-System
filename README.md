@@ -31,6 +31,8 @@ Tested and deployed smart contracts on a local blockchain
 Team Contributions:
 Assisted in system design and workflow planning
 Collaborated on testing and debugging of smart contracts
+
+
 ⚙️ How It Works
 Patient registers in the system
 Medical records are securely stored via smart contracts
