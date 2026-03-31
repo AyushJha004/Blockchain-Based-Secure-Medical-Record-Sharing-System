@@ -49,11 +49,13 @@ Data cannot be modified (immutability)
 Only authorized users can access records
 No central authority controls the data
 ⚙️ Setup Instructions
-Open Remix IDE
-Create a new Solidity file and paste the smart contract code
-Compile the contract
-Deploy using the Remix environment (JavaScript VM / local blockchain)
-Interact with the contract functions to simulate record storage and access
+1)Open Remix IDE
+2)Create a new Solidity file and paste the smart contract code
+3)Compile the contract
+4)Deploy using the Remix environment (JavaScript VM / local blockchain)
+5)Interact with the contract functions to simulate record storage and access
+6)If required change the region in the IDE terminal suggestion (Paris or London)
+7) Keep Estimated Gas as 30,0000
 
 
 📈 Future Improvements:-
