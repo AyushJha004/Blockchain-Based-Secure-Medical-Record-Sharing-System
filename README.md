@@ -72,3 +72,42 @@ Understanding of blockchain fundamentals and smart contracts
 Implementation of access control in decentralized systems
 Concepts of data security and immutability
 Hands-on experience with Remix IDE and Solidity
+
+🏗️ System Architecture:-
+                    ┌─────────────────────┐
+                    │      Patient        │
+                    │  (Record Owner)     │
+                    └─────────┬───────────┘
+                              │
+                 Upload Medical Records
+                              │
+                              ▼
+               ┌─────────────────────────┐
+               │   Smart Contract Layer  │
+               │      (Solidity)         │
+               └─────────┬───────────────┘
+                         │
+      ┌──────────────────┼──────────────────┐
+      │                  │                  │
+      ▼                  ▼                  ▼
+┌──────────────┐  ┌──────────────┐  ┌────────────────┐
+│ Store Record │  │ Access Logic │  │ Permission Mgmt│
+│  Hash/Data   │  │ Verification │  │ Grant / Revoke │
+└──────┬───────┘  └──────┬───────┘  └────────┬───────┘
+       │                 │                   │
+       └─────────────────┴───────────────────┘
+                         │
+                         ▼
+              ┌────────────────────┐
+              │ Ethereum Blockchain│
+              │ Immutable Storage  │
+              └─────────┬──────────┘
+                        │
+            Access Request / Verification
+                        │
+                        ▼
+               ┌─────────────────┐
+               │     Doctor      │
+               │ Authorized User │
+               └─────────────────┘
+
